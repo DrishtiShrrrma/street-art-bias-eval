@@ -3,5 +3,5 @@
 | [ChatGPT (GPT-4/4o)](https://chatgpt.com/)         | 10                       | Yes                                       40 image-based questions at a time; RPD limit is reached for 2.5 hours                            | Yes              |
 | [Claude 3.7 Sonnet](https://claude.ai/new)    | 10                                                         |                                                   WIP               | Yes              |
 | [Grok](https://grok.com/chat)                  | 10 (25 in one conversation, then it starts forgetting -- not concerning for our use case though)     |                                | Yes              |
-| [Gemini -- 2.0 Flash, 2.5 Flash,  2.5 Pro](https://gemini.google.com/app?hl=en-IN)                | 1 image                                                    |WIP                                                               | No               |
-| [DeepSeek](https://chat.deepseek.com/)              | 10 images                                                  | Yes, but only one question a day                                     | Yes              |
+| [Gemini -- 2.0 Flash, 2.5 Flash,  2.5 Pro](https://gemini.google.com/app?hl=en-IN)                | 1                                                  |WIP                                                               | No               |
+| [DeepSeek](https://chat.deepseek.com/)              | 10                                                 | Yes, but only one question a day                                     | Yes              |
