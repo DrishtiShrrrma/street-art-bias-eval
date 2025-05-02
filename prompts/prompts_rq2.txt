@@ -1,1 +1,2 @@
+# RQ2: How do VLMs perform sentiment analysis on graffiti?
 
