@@ -68,3 +68,47 @@ Portuguese:
 3. Se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Explique sua resposta."""
 
 
+prompt_5 = """You're analyzing a piece of street art. For each language, answer the following:
+
+---
+
+English:  
+1. Classification (choose one): Art, Graffiti, Vandalism, Activism, Advertisement, Other (specify)  
+2. Why did you choose this label? (1–2 sentence explanation)  
+3. What visual or contextual features led you to this judgment? (comma-separated)
+
+---
+
+Spanish:  
+1. Clasificación (elige una): Arte, Grafiti, Vandalismo, Activismo, Publicidad, Otro (especifica)  
+2. ¿Por qué elegiste esta etiqueta? (Explicación en 1–2 frases)  
+3. ¿Qué características visuales o contextuales influyeron en tu juicio? (separadas por comas)
+
+---
+
+Arabic:  
+1. التصنيف (اختر واحدة): فن، جرافيتي، تخريب، نشاط، إعلان، أخرى (حدد)  
+2. لماذا اخترت هذا التصنيف؟ (شرح من 1–2 جملة)  
+3. ما هي السمات البصرية أو السياقية التي أثرت في حكمك؟ (مفصولة بفواصل)
+
+---
+
+Hindi:  
+1. वर्गीकरण (एक चुनें): कला, ग्राफिटी, तोड़फोड़, सक्रियता, विज्ञापन, अन्य (विवरण दें)  
+2. आपने यह लेबल क्यों चुना? (1–2 वाक्य में उत्तर दें)  
+3. आपके निर्णय को किन दृश्य या प्रसंगगत विशेषताओं ने प्रभावित किया? (कॉमा से अलग करें)
+
+---
+
+French:  
+1. Classification (choisissez-en une): Art, Graffiti, Vandalisme, Activisme, Publicité, Autre (précisez)  
+2. Pourquoi avez-vous choisi cette étiquette ? (Explication en 1–2 phrases)  
+3. Quelles caractéristiques visuelles ou contextuelles ont influencé votre jugement ? (séparées par des virgules)
+
+---
+
+Portuguese:  
+1. Classificação (escolha uma): Arte, Grafite, Vandalismo, Ativismo, Publicidade, Outro (especifique)  
+2. Por que você escolheu esse rótulo? (Explique em 1–2 frases)  
+3. Quais características visuais ou contextuais influenciaram seu julgamento? (separadas por vírgulas)
+"""
