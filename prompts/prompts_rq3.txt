@@ -1,0 +1,1 @@
+# RQ3: Do VLMs provide different responses to graffiti-related prompts depending on the input language? Can VLMs can identify cultural artifact designs specific to certain cultures which might not have an English name?
