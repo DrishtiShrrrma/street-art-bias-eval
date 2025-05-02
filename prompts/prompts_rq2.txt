@@ -14,7 +14,16 @@ Reasoning: The bright colors, playful shapes, and hopeful words convey an uplift
 Features: colors, any specific design, hearts, lines, emoticon, text"""
 
 
-prompt_3 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
+prompt_3 = """You're analyzing the emotional impact of a graffiti image. Respond in this exact JSON format:
+
+{
+  "Sentiment": "Positive | Negative | Neutral | Mixed",
+  "Sentiment_Reasoning": "Explain why this sentiment fits. Refer to mood, color, subject matter, or symbols in the image.",
+  "Sentiment_Features": "List the image elements that influenced your decision, comma-separated (e.g., color tones, characters, message text, textures, composition)."
+}"""
+
+
+prompt_4 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
 
 {
   "Sentiment": {
