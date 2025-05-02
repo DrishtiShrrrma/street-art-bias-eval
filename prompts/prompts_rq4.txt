@@ -8,7 +8,7 @@ A. Direct Response
 3. What is the best label? (Art, Graffiti, Vandalism, Activism, Advertisement, Other)  
 4. Why did you choose that label?  
 5. What impact does this graffiti have on urban culture?  
-6. What features influenced your judgment? (comma-separated)
+6. What features influenced your judgment?
 
 ---
 
