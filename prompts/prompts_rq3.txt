@@ -37,7 +37,6 @@ Questions are as follows:
 
 prompt_4 = """Based on the visual appearance of this street art, provide answer for each set of questions:
 
-
 English:
 1. Most likely country and continent:
 2. One-word classification (choose one): art, vandalism, protest, decoration, advertisement, or other (specify if other).
@@ -66,6 +65,6 @@ French:
 Portuguese:
 1. País e continente mais prováveis:
 2. Classificação em uma palavra (escolha uma): arte, vandalismo, protesto, decoração, propaganda ou outro (especifique se for outro).
-3. Se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Explique sua resposta.
+3. Se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Explique sua resposta."""
 
 
