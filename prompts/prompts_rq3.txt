@@ -10,5 +10,5 @@ prompt_1 = """{
   "portuguese": "O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva."
 }"""
 
-prompt_2 = """"You will receive user questions in various languages.
+prompt_2 = """You will receive user questions in various languages.
 
