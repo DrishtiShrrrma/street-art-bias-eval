@@ -22,8 +22,14 @@ prompt_3 = """You're analyzing the emotional impact of a graffiti image. Respond
   "Sentiment_Features": "List the image elements that influenced your decision, comma-separated (e.g., color tones, characters, message text, textures, composition)."
 }"""
 
+prompt_4 = """prompt_4 = """Describe both the emotional tone and intent of this graffiti.
 
-prompt_4 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
+1. What is the dominant emotion it conveys? (e.g., joy, anger, hope, despair, apathy, rebellion)
+2. What is the artist trying to express or make the viewer feel?
+3. What features led you to that interpretation? List them."""
+
+
+prompt_5 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
 
 {
   "Sentiment": {
