@@ -1,4 +1,4 @@
-| Enterprise Model Name | Images Supported at a Time                                | No. of Image-Based Questions That Can Be Asked at a Time            | Suitable for RQ5 |
+| Proprietary Model Name | Images Supported at a Time                                | No. of Image-Based Questions That Can Be Asked at a Time            | Suitable for RQ5 |
 |-----------------------|------------------------------------------------------------|----------------------------------------------------------------------|------------------|
 | ChatGPT               | 10 (can ask )                       | Yes                                       40 image-based questions at a time; RPD limit is reached for 2.5 hours                            | Yes              |
 | Claude 3.7 Sonnet     | 10                                                         |                                                                  | Yes              |
