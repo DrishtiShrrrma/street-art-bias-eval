@@ -1,1 +1,25 @@
+# RQ4: 
+
+prompt_1 = """You're analyzing a street art or say graffiti. Answer the following six questions twice — first directly, then using step-by-step reasoning.
+
+A. Direct Response
+1. What message or emotion does the graffiti express?  
+2. How does its location affect the message?  
+3. What is the best label? (Art, Graffiti, Vandalism, Activism, Advertisement, Other)  
+4. Why did you choose that label?  
+5. What impact does this graffiti have on urban culture?  
+6. What features influenced your judgment? (comma-separated)
+
+---
+
+B. Chain-of-Thought Response  
+Think step by step for each question. Explain how you arrived at each answer.
+
+1. What message or emotion does the graffiti express?  
+2. How does its location affect the message?  
+3. What is the best label? (Same options)    
+4. Why did you choose that label?  
+5. What impact does this graffiti have on urban culture?  
+6. What features influenced your judgment?
+"""
 
