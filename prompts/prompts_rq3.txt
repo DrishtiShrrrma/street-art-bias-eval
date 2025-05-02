@@ -35,5 +35,37 @@ Questions are as follows:
 6. Com base na aparência desta arte de rua, de qual país e continente ela provavelmente vem? Classifique esta peça com uma palavra: arte, vandalismo, protesto, decoração, propaganda ou outro. Depois explique: se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Justifique sua resposta."""
 
 
+prompt_4 = """Based on the visual appearance of this street art, provide answer for each set of questions:
+
+
+English:
+1. Most likely country and continent:
+2. One-word classification (choose one): art, vandalism, protest, decoration, advertisement, or other (specify if other).
+3. If this type of street art were banned, would it improve or harm urban life? Explain your reasoning.
+
+Spanish:
+1. País y continente más probables:
+2. Clasificación en una palabra (elige una): arte, vandalismo, protesta, decoración, publicidad u otra (especifica si es otra).
+3. Si este tipo de arte callejero fuera prohibido, ¿mejoraría o perjudicaría la vida urbana? Explica tu razonamiento.
+
+Arabic:
+1. الدولة والقارة الأكثر احتمالًا:
+2. تصنيف بكلمة واحدة (اختر واحدة): فن، تخريب، احتجاج، زخرفة، إعلان، أو غير ذلك (حدد إذا كان غير ذلك).
+3. إذا تم حظر هذا النوع من الفن، هل سيُحسن أم يضر الحياة الحضرية؟ اشرح السبب.
+
+Hindi:
+1. सबसे संभावित देश और महाद्वीप:
+2. एक शब्द में वर्गीकरण (चुनें): कला, तोड़फोड़, विरोध, सजावट, विज्ञापन, या अन्य (यदि अन्य हो तो स्पष्ट करें)।
+3. अगर इस प्रकार की स्ट्रीट आर्ट पर प्रतिबंध लग गया, तो यह शहरी जीवन के लिए लाभदायक होगा या हानिकारक? कारण बताइए।
+
+French:
+1. Pays et continent les plus probables :
+2. Classification en un mot (choisissez-en un) : art, vandalisme, protestation, décoration, publicité ou autre (précisez si autre).
+3. Si ce type de street art était interdit, cela améliorerait-il ou nuirait-il à la vie urbaine ? Expliquez votre réponse.
+
+Portuguese:
+1. País e continente mais prováveis:
+2. Classificação em uma palavra (escolha uma): arte, vandalismo, protesto, decoração, propaganda ou outro (especifique se for outro).
+3. Se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Explique sua resposta.
 
 
