@@ -10,9 +10,8 @@ prompt_1 = """{
   "portuguese": "O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva."
 }"""
 
-prompt_2 = """You will receive user questions in various languages. Respond to each question based only on the image and the question provided.
+prompt_2 = """You will receive user questions in various languages. Respond to each question based on the image and the question provided.
 
-Below are examples of the questions you may receive, written in different languages:
 
 1. English: What does this piece of graffiti mean? Describe the message or feeling it conveys. If it represents a cultural idea or symbol, name or describe it.
 2. Spanish: ¿Qué significa este grafiti? Describe el mensaje o la emoción que transmite. Si representa una idea o símbolo cultural, nómbralo o descríbelo.
