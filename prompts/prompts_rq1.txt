@@ -1,1 +1,137 @@
+# RQ1: 1. Do Visual-Language Models (VLMs) exhibit regional biases when interpreting graffiti in different cities?
+
+
+
+prompt_1 = """Based on the look of this street art, what country and continent is this most likely from? Classify this piece of street art using one word: art, vandalism, protest, decoration, advertisement, or other. Then explain: If this type of street art were banned, would it improve or harm urban life? Justify your answer by providing reasoning for your"""
+
+prompt_2 = """Based on the visual appearance of this street art, answer the following:
+1. Most likely country and continent:
+2. One-word classification (choose one): art, vandalism, protest, decoration, advertisement, or other (specify if other).
+3. If this type of street art were banned, would it improve or harm urban life? Explain your reasoning."""
+
+prompt_3 = """
+Based on the visual appearance of this street art, answer the following. For each item, provide:
+- Your answer
+- The reasoning behind your choice
+- The specific visual features or cues you used to make the decision
+
+1. Most likely country and continent:
+2. One-word classification (choose one): art, vandalism, protest, decoration, advertisement, or other (specify if other)
+3. If this type of street art were banned, would it improve or harm urban life?
+"""
+
+prompt_4 = """You're analyzing a piece of street art. Respond in this exact JSON format. For each item, provide:
+- A clear decision (from listed options)
+- A brief justification (max 2 sentences)
+- Key visual or contextual features used (comma-separated)
+
+{
+  "Label": {
+    "type": "string",
+    "description": "One word only: 'Art', 'Graffiti', 'Vandalism', 'Activism', 'Advertisement', or 'Other' (specify if 'Other')"
+  },
+  "Label_Reasoning": {
+    "type": "string",
+    "description": "Why this label? Refer to 1–2 visual or stylistic elements."
+  },
+  "Label_Features": {
+    "type": "string",
+    "description": "Key visual/contextual features (e.g., color, medium, symbols, text style, surface)"
+  },
+
+  "CulturalImpact": {
+    "type": "string",
+    "description": "Choose: 'Enhances', 'Degrades', or 'Neutral'"
+  },
+  "CulturalImpact_Reasoning": {
+    "type": "string",
+    "description": "What does this add or subtract from urban culture? Keep it to 2 sentences."
+  },
+  "CulturalImpact_Features": {
+    "type": "string",
+    "description": "Key features that shaped your answer (e.g., clarity, aesthetics, message, location)"
+  }
+}"""
+
+
+prompt_5 = """You're analyzing a piece of street art. Respond in the following JSON format. For each section, provide:
+- A decisive label (chosen from the options),
+- A brief explanation (max 1-2 sentences),
+- A comma-separated list of the key visual, cultural, or contextual features that informed your judgment.
+
+{
+  "Label": {
+    "type": "string",
+    "description": "Choose ONE: 'Art', 'Graffiti', 'Vandalism', 'Activism', 'Advertisement', 'Other' (specify if 'Other')."
+  },
+  "Label_Reasoning": {
+    "type": "string",
+    "description": "Briefly explain your choice. Reference specific image elements that led to your label."
+  },
+  "Label_Features": {
+    "type": "string",
+    "description": "Comma-separated features (e.g., spray style, lettering, symbols, materials, location cues)."
+  },
+
+  "CulturalImpact": {
+    "type": "string",
+    "description": "Choose ONE: 'Enhances', 'Degrades', 'Neutral'. Does this art elevate or detract from urban culture?"
+  },
+  "CulturalImpact_Reasoning": {
+    "type": "string",
+    "description": "Explain your answer—what does this contribute or take away socially or aesthetically?"
+  },
+  "CulturalImpact_Features": {
+    "type": "string",
+    "description": "List key features (e.g., color use, messaging, scale, integration with surroundings)."
+  }
+}"""
+
+
+prompt_6 = """You're analyzing a piece of street art. Respond in the following JSON format. For each section, provide:
+- A decisive label (chosen from the options),
+- A brief explanation (max 2–3 sentences),
+- A comma-separated list of the key visual, cultural, or contextual features that informed your judgment.
+
+{
+  "Label": {
+    "type": "string",
+    "description": "Choose ONE: 'Art', 'Graffiti', 'Vandalism', 'Activism', 'Advertisement', 'Other' (specify if 'Other')."
+  },
+  "Label_Reasoning": {
+    "type": "string",
+    "description": "Briefly explain your choice. Reference specific image elements that led to your label."
+  },
+  "Label_Features": {
+    "type": "string",
+    "description": "Comma-separated features (e.g., spray style, lettering, symbols, materials, location cues)."
+  },
+
+  "CulturalImpact": {
+    "type": "string",
+    "description": "Choose ONE: 'Enhances', 'Degrades', 'Neutral'. Does this art elevate or detract from urban culture?"
+  },
+  "CulturalImpact_Reasoning": {
+    "type": "string",
+    "description": "Explain your answer—what does this contribute or take away socially or aesthetically?"
+  },
+  "CulturalImpact_Features": {
+    "type": "string",
+    "description": "List key features (e.g., color use, messaging, scale, integration with surroundings)."
+  },
+
+  "PerceivedPublicReaction": {
+    "type": "string",
+    "description": "Choose ONE: 'Celebrate', 'Tolerate', 'Ignore', 'Condemn'. How might locals respond to this?"
+  },
+  "PublicReaction_Reasoning": {
+    "type": "string",
+    "description": "Justify your choice. Mention any inferred cultural, political, or regional factors."
+  },
+  "PublicReaction_Features": {
+    "type": "string",
+    "description": "List features (e.g., language, political symbols, regional references, location)."
+  }
+}
+"""
 
