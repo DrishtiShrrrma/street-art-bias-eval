@@ -1,2 +1,23 @@
 # RQ2: How do VLMs perform sentiment analysis on graffiti?
 
+
+
+
+
+prompt_3 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
+
+{
+  "Sentiment": {
+    "type": "string",
+    "description": "Choose ONE: 'Positive', 'Negative', 'Neutral', or 'Mixed'."
+  },
+  "Sentiment_Reasoning": {
+    "type": "string",
+    "description": "Why did you assign this sentiment? Explain your reasoning clearly—what about the image led you to interpret it this way?"
+  },
+  "Sentiment_Features": {
+    "type": "string",
+    "description": "List the visual, textual, or contextual features that influenced your sentiment judgment. Use a comma-separated list. Include any details the image presents, without limiting to predefined categories."
+  }
+}
+"""
