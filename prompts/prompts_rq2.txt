@@ -3,6 +3,15 @@
 prompt_1 = """Look at this piece of graffiti. What emotion or mood does it express overall? Choose ONE: Positive, Negative, Neutral, or Mixed. Then explain *why* it conveys that emotion, and describe which parts of the image made you feel that way."""
 
 
+prompt_2 = """You're analyzing the emotional tone of a piece of graffiti/street art. For each response, provide:
+1. Sentiment (Positive, Negative, Neutral, or Mixed)
+2. Reasoning (Why this sentiment? Be specific.)
+3. Visual features that influenced your decision (comma-separated)
+
+Example format:
+Sentiment: Positive  
+Reasoning: The bright colors, playful shapes, and hopeful words convey an uplifting message.  
+Features: colors, any specific design, hearts, lines, emoticon, text"""
 
 
 prompt_3 = """You're analyzing the emotional tone of a piece of graffiti. Respond in the following JSON format:
