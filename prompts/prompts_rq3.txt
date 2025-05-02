@@ -68,7 +68,43 @@ Portuguese:
 3. Se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Explique sua resposta."""
 
 
-prompt_5 = """You're analyzing a piece of street art. For each language, answer the following:
+prompt_5 = """For each language, classify the street art and explain briefly:
+
+---
+
+English:  
+1. Label (Art, Graffiti, Vandalism, Activism, Advertisement, Other):  
+2. Reason (1–2 sentences):  
+3. Features (comma-separated):
+
+Spanish:  
+1. Etiqueta (Arte, Grafiti, Vandalismo, Activismo, Publicidad, Otro):  
+2. Razón (1–2 frases):  
+3. Características (separadas por comas):
+
+Arabic:  
+1. التصنيف: (فن، جرافيتي، تخريب، نشاط، إعلان، أخرى):  
+2. السبب (1–2 جمل):  
+3. السمات (مفصولة بفواصل):
+
+Hindi:  
+1. लेबल (कला, ग्राफिटी, तोड़फोड़, सक्रियता, विज्ञापन, अन्य):  
+2. कारण (1–2 वाक्य):  
+3. विशेषताएँ (कॉमा से अलग):
+
+French:  
+1. Étiquette (Art, Graffiti, Vandalisme, Activisme, Publicité, Autre):  
+2. Raison (1–2 phrases):  
+3. Caractéristiques (séparées par des virgules):
+
+Portuguese:  
+1. Rótulo (Arte, Grafite, Vandalismo, Ativismo, Publicidade, Outro):  
+2. Motivo (1–2 frases):  
+3. Características (separadas por vírgulas):
+"""
+
+
+prompt_6 = """You're analyzing a piece of street art. For each language, answer the following:
 
 ---
 
