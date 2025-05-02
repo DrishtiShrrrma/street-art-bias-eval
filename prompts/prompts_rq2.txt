@@ -1,5 +1,6 @@
 # RQ2: How do VLMs perform sentiment analysis on graffiti?
 
+prompt_1 = """Look at this piece of graffiti. What emotion or mood does it express overall? Choose ONE: Positive, Negative, Neutral, or Mixed. Then explain *why* it conveys that emotion, and describe which parts of the image made you feel that way."""
 
 
 
