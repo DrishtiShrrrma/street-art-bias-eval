@@ -23,3 +23,17 @@ Think step by step for each question. Explain how you arrived at each answer.
 6. What features influenced your judgment?
 """
 
+prompt_2 = """You will answer the same 4 questions twice:
+First, give a direct answer (No CoT). Then, answer again using step-by-step reasoning (CoT).
+
+A. No CoT
+
+1. Emotion: (a) Anger (b) Joy (c) Sadness (d) Pride (e) Confusion (f) Neutral  
+2. Is this activism? (Yes/No)  
+3. Label: (a) Art (b) Graffiti (c) Vandalism (d) Activism (e) Advertisement (f) Other (specify other)
+
+B. CoT
+
+1. What visual details suggest the emotion? Then choose one of the options which best describes the emotion illustrated by graffiti: (a) Anger (b) Joy (c) Sadness (d) Pride (e) Confusion (f) Neutral  
+2. What makes it activism or not? Explain briefly, then answer (Yes/No)  
+3. Based on message + context, what is the best label? Explain, then choose one suitable option from: (a) Art (b) Graffiti (c) Vandalism (d) Activism (e) Advertisement (f) Other (specify other)
