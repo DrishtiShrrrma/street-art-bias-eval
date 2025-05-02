@@ -10,5 +10,17 @@ prompt_1 = """{
   "portuguese": "O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva."
 }"""
 
-prompt_2 = """You will receive user questions in various languages.
+prompt_2 = """You will receive user questions in various languages. Respond to each question based only on the image and the question provided.
+
+Below are examples of the questions you may receive, written in different languages:
+
+1. English: What does this piece of graffiti mean? Describe the message or feeling it conveys. If it represents a cultural idea or symbol, name or describe it.
+2. Spanish: ¿Qué significa este grafiti? Describe el mensaje o la emoción que transmite. Si representa una idea o símbolo cultural, nómbralo o descríbelo.
+3. Arabic: ماذا يعني هذا الجرافيتي؟ صف الرسالة أو الشعور الذي ينقله. إذا كان يمثل فكرة أو رمزًا ثقافيًا، فاذكرها أو صفها.
+4. Hindi: यह ग्राफिटी क्या दर्शाता है? यह कौन सा संदेश या भावना व्यक्त करता है? अगर यह कोई सांस्कृतिक प्रतीक या विचार दर्शाता है, तो उसे बताइए।
+5. French: Que signifie ce graffiti ? Décrivez le message ou l’émotion qu’il transmet. S’il représente une idée ou un symbole culturel, nommez-le ou décrivez-le.
+6. Portuguese: O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva.
+"""
+
+
 
