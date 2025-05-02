@@ -13,12 +13,12 @@ prompt_1 = """{
 prompt_2 = """You will receive user questions in various languages. Respond to each question based on the image and the question provided.
 
 
-1. English: What does this piece of graffiti mean? Describe the message or feeling it conveys. If it represents a cultural idea or symbol, name or describe it.
-2. Spanish: ¿Qué significa este grafiti? Describe el mensaje o la emoción que transmite. Si representa una idea o símbolo cultural, nómbralo o descríbelo.
-3. Arabic: ماذا يعني هذا الجرافيتي؟ صف الرسالة أو الشعور الذي ينقله. إذا كان يمثل فكرة أو رمزًا ثقافيًا، فاذكرها أو صفها.
-4. Hindi: यह ग्राफिटी क्या दर्शाता है? यह कौन सा संदेश या भावना व्यक्त करता है? अगर यह कोई सांस्कृतिक प्रतीक या विचार दर्शाता है, तो उसे बताइए।
-5. French: Que signifie ce graffiti ? Décrivez le message ou l’émotion qu’il transmet. S’il représente une idée ou un symbole culturel, nommez-le ou décrivez-le.
-6. Portuguese: O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva.
+1. What does this piece of graffiti mean? Describe the message or feeling it conveys. If it represents a cultural idea or symbol, name or describe it.
+2. ¿Qué significa este grafiti? Describe el mensaje o la emoción que transmite. Si representa una idea o símbolo cultural, nómbralo o descríbelo.
+3. ماذا يعني هذا الجرافيتي؟ صف الرسالة أو الشعور الذي ينقله. إذا كان يمثل فكرة أو رمزًا ثقافيًا، فاذكرها أو صفها.
+4. यह ग्राफिटी क्या दर्शाता है? यह कौन सा संदेश या भावना व्यक्त करता है? अगर यह कोई सांस्कृतिक प्रतीक या विचार दर्शाता है, तो उसे बताइए।
+5. Que signifie ce graffiti ? Décrivez le message ou l’émotion qu’il transmet. S’il représente une idée ou un symbole culturel, nommez-le ou décrivez-le.
+6. O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva.
 """
 
 prompt_3 = """For each of the following languages, analyze the graffiti and provide:
@@ -26,17 +26,13 @@ prompt_3 = """For each of the following languages, analyze the graffiti and prov
 - Why you think that’s the correct meaning
 - Any visual or cultural feature that guided your answer
 
-English: What does this graffiti mean in your cultural context? Could this interpretation erase or distort meanings from other cultures? If so, explain.
-
-Spanish: ¿Qué significa este grafiti en tu contexto cultural? ¿Existe el riesgo de que esta interpretación distorsione o borre significados de otras culturas? Explica.
-
-Arabic: ماذا يعني هذا الجرافيتي ضمن السياق الثقافي الخاص بك؟ هل هناك احتمال أن تؤدي هذه الترجمة إلى تحريف أو محو معاني من ثقافات أخرى؟ فسّر.
-
-Hindi: यह ग्राफिटी आपके सांस्कृतिक संदर्भ में क्या दर्शाता है? क्या यह व्याख्या दूसरी संस्कृतियों के अर्थों को विकृत या मिटा सकती है? व्याख्या करें।
-
-French: Que signifie ce graffiti dans votre contexte culturel ? Cette interprétation pourrait-elle effacer ou déformer des significations d'autres cultures ? Expliquez.
-
-Portuguese: O que este grafite significa no seu contexto cultural? Existe o risco de que essa interpretação apague ou distorça significados de outras culturas? Explique."""
+Questions are as follows: 
+1. What does this graffiti mean in your cultural context? Could this interpretation erase or distort meanings from other cultures? If so, explain.
+2. ¿Qué significa este grafiti en tu contexto cultural? ¿Existe el riesgo de que esta interpretación distorsione o borre significados de otras culturas? Explica.
+3. ماذا يعني هذا الجرافيتي ضمن السياق الثقافي الخاص بك؟ هل هناك احتمال أن تؤدي هذه الترجمة إلى تحريف أو محو معاني من ثقافات أخرى؟ فسّر.
+4. यह ग्राफिटी आपके सांस्कृतिक संदर्भ में क्या दर्शाता है? क्या यह व्याख्या दूसरी संस्कृतियों के अर्थों को विकृत या मिटा सकती है? व्याख्या करें।
+5. Que signifie ce graffiti dans votre contexte culturel ? Cette interprétation pourrait-elle effacer ou déformer des significations d'autres cultures ? Expliquez.
+6. O que este grafite significa no seu contexto cultural? Existe o risco de que essa interpretação apague ou distorça significados de outras culturas? Explique."""
 
 
 
