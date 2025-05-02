@@ -1,4 +1,4 @@
-# RQ4: 
+# RQ4: How do VLMs use Chain-of-Thought (CoT) reasoning when analyzing graffiti, particularly in understanding its placement and sentiment? 
 
 prompt_1 = """You're analyzing a street art or say graffiti. Answer the following six questions twice — first directly, then using step-by-step reasoning.
 
