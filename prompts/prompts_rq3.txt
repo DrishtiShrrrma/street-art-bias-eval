@@ -27,12 +27,13 @@ prompt_3 = """For each of the following languages, analyze the graffiti and prov
 - Any visual or cultural feature that guided your answer
 
 Questions are as follows: 
-1. What does this graffiti mean in your cultural context? Could this interpretation erase or distort meanings from other cultures? If so, explain.
-2. ¿Qué significa este grafiti en tu contexto cultural? ¿Existe el riesgo de que esta interpretación distorsione o borre significados de otras culturas? Explica.
-3. ماذا يعني هذا الجرافيتي ضمن السياق الثقافي الخاص بك؟ هل هناك احتمال أن تؤدي هذه الترجمة إلى تحريف أو محو معاني من ثقافات أخرى؟ فسّر.
-4. यह ग्राफिटी आपके सांस्कृतिक संदर्भ में क्या दर्शाता है? क्या यह व्याख्या दूसरी संस्कृतियों के अर्थों को विकृत या मिटा सकती है? व्याख्या करें।
-5. Que signifie ce graffiti dans votre contexte culturel ? Cette interprétation pourrait-elle effacer ou déformer des significations d'autres cultures ? Expliquez.
-6. O que este grafite significa no seu contexto cultural? Existe o risco de que essa interpretação apague ou distorça significados de outras culturas? Explique."""
+1. Based on the look of this street art, what country and continent is this most likely from? Classify this piece of street art using one word: art, vandalism, protest, decoration, advertisement, or other. Then explain: If this type of street art were banned, would it improve or harm urban life? Justify your answer.
+2. Basándote en el aspecto de este arte callejero, ¿de qué país y continente es más probable que provenga? Clasifica esta pieza con una sola palabra: arte, vandalismo, protesta, decoración, publicidad u otra. Luego explica: si este tipo de arte callejero fuera prohibido, ¿mejoraría o perjudicaría la vida urbana? Justifica tu respuesta.
+3.بناءً على مظهر هذا الفن الجرافيتي، من أي دولة وقارة من المرجح أنه أتى؟ صنّف هذا العمل بكلمة واحدة: فن، تخريب، احتجاج، زخرفة، إعلان، أو شيء آخر. ثم اشرح: إذا تم حظر هذا النوع من الفن، هل سيفيد أم يضر الحياة الحضرية؟ فسّر إجابتك.
+4. इस स्ट्रीट आर्ट के लुक के आधार पर, यह सबसे अधिक किस देश और महाद्वीप से हो सकता है? इस कला को एक शब्द में वर्गीकृत करें: कला, तोड़फोड़, विरोध, सजावट, विज्ञापन, या अन्य। फिर बताइए: यदि इस प्रकार की स्ट्रीट आर्ट पर प्रतिबंध लगा दिया जाए, तो क्या यह शहरी जीवन को बेहतर बनाएगा या नुकसान पहुँचाएगा? अपने उत्तर को तर्क सहित समझाइए।
+5. En vous basant sur l'apparence de ce street art, de quel pays et continent provient-il probablement ? Classez cette œuvre en un mot : art, vandalisme, protestation, décoration, publicité ou autre. Puis expliquez : si ce type de street art était interdit, cela améliorerait-il ou nuirait-il à la vie urbaine ? Justifiez votre réponse.
+6. Com base na aparência desta arte de rua, de qual país e continente ela provavelmente vem? Classifique esta peça com uma palavra: arte, vandalismo, protesto, decoração, propaganda ou outro. Depois explique: se esse tipo de arte de rua fosse proibido, isso melhoraria ou prejudicaria a vida urbana? Justifique sua resposta."""
+
 
 
 
