@@ -21,5 +21,22 @@ prompt_2 = """You will receive user questions in various languages. Respond to e
 6. Portuguese: O que significa este grafite? Descreva a mensagem ou o sentimento que ele transmite. Se representar uma ideia ou símbolo cultural, nomeie ou descreva.
 """
 
+prompt_3 = """For each of the following languages, analyze the graffiti and provide:
+- Your interpretation
+- Why you think that’s the correct meaning
+- Any visual or cultural feature that guided your answer
+
+English: What does this graffiti mean in your cultural context? Could this interpretation erase or distort meanings from other cultures? If so, explain.
+
+Spanish: ¿Qué significa este grafiti en tu contexto cultural? ¿Existe el riesgo de que esta interpretación distorsione o borre significados de otras culturas? Explica.
+
+Arabic: ماذا يعني هذا الجرافيتي ضمن السياق الثقافي الخاص بك؟ هل هناك احتمال أن تؤدي هذه الترجمة إلى تحريف أو محو معاني من ثقافات أخرى؟ فسّر.
+
+Hindi: यह ग्राफिटी आपके सांस्कृतिक संदर्भ में क्या दर्शाता है? क्या यह व्याख्या दूसरी संस्कृतियों के अर्थों को विकृत या मिटा सकती है? व्याख्या करें।
+
+French: Que signifie ce graffiti dans votre contexte culturel ? Cette interprétation pourrait-elle effacer ou déformer des significations d'autres cultures ? Expliquez.
+
+Portuguese: O que este grafite significa no seu contexto cultural? Existe o risco de que essa interpretação apague ou distorça significados de outras culturas? Explique."""
+
 
 
