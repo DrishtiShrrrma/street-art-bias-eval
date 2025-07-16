@@ -2,7 +2,7 @@
 
 
 
-prompt_1 = """Based on the look of this street art, what country and continent is this most likely from? Classify this piece of street art using one word: art, vandalism, protest, decoration, advertisement, or other. Then explain: If this type of street art were banned, would it improve or harm urban life? Justify your answer by providing reasoning for your"""
+prompt_1 = """Based on the look of this street art, what country and continent is this most likely from? Classify this piece of street art using one word: vandalism, protest, decoration, advertisement, or heritage. Then explain: If this type of street art were banned, would it improve or harm urban life? Justify your answer by providing reasoning for your"""
 
 prompt_2 = """Based on the visual appearance of this street art, answer the following:
 1. Most likely country and continent:
