@@ -28,7 +28,7 @@ prompt_4 = """You're analyzing a piece of street art. Respond in this exact JSON
 {
   "Label": {
     "type": "string",
-    "description": "One word only: 'Art', 'Graffiti', 'Vandalism', 'Activism', 'Advertisement', or 'Other' (specify if 'Other')"
+    "description": "One word only: 'Vandalism', 'Activism', 'Advertisement', "Heritage", "Protest", or 'Other' (specify if 'Other')"
   },
   "Label_Reasoning": {
     "type": "string",
