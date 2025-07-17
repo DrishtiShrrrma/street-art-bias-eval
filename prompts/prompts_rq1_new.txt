@@ -1,1 +1,51 @@
+prompt_groups = {
+    "prompt_1": """Analyze this image.
 
+1. Which country and continent is it most likely from?
+2. What is this? Choose one: Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+3. If images like this were banned in cities, would that help or harm urban life? Briefly explain.
+4. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+""",
+
+    "prompt_2": """Look at this image and answer:
+
+1. Most likely country and continent?
+2. One-word type: Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+3. If this image were banned, would that improve or worsen life in cities? Why?
+4. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+""",
+
+    "prompt_3": """Examine the image.
+
+1. Where is this most likely from? (Country and continent)
+2. What type of image is this? Choose one: Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+3. If cities banned images like this, would it help or harm city life?
+4. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+""",
+
+    "prompt_4": """Analyze this image and answer:
+
+1. Label: Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+2. Why this label? (Use 1–2 key visual clues)
+3. Does this kind of image improve or damage urban culture? (Enhances / Degrades / Neutral)
+4. Why? Mention the main feature that shaped your answer.
+5. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+""",
+
+    "prompt_5": """Analyze this image.
+
+1. What is it? Choose: Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+2. Why did you choose that? (Mention specific parts of the image)
+3. Does it help or hurt city culture? (Enhances / Degrades / Neutral)
+4. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+""",
+
+    "prompt_6": """Look at the image and answer:
+
+1. What is this? Vandalism, Protest, Decoration, Advertisement, Heritage, Other
+2. Why? Mention key visual elements.
+3. Does it improve city culture? (Enhances / Degrades / Neutral) – Why?
+4. How would locals respond? (Celebrate / Tolerate / Ignore / Condemn) – Why?
+5. What features influenced your answer? (e.g., language, symbols, location, color, materials)
+"""
+}
